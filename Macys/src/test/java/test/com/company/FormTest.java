@@ -53,7 +53,7 @@ public class FormTest {
     }
 
     @Test
-    public void testMyForm() throws Exception {
+    public void FormTest() throws Exception {
         driver.get("https://www.macys.com/my-checkout");
         driver.manage().window().maximize();
         driver.findElement(By.name("firstName")).click();

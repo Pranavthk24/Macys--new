@@ -54,7 +54,7 @@ public class ShoppingbagTest {
     }
     
     @Test
-  public void testUntitledTestCase() throws Exception {
+  public void ShoppingbagTest() throws Exception {
     driver.get("https://www.macys.com/");
     driver.findElement(By.id("globalSearchInputField")).click();
     driver.findElement(By.id("globalSearchInputField")).clear();

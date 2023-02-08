@@ -54,7 +54,7 @@ public class LocaterTest {
     public void tearDownMethod() throws Exception {
     }
     @Test
-  public void testUntitledTestCase() throws Exception {
+  public void LocaterTest() throws Exception {
     driver.get("https://www.macys.com/");
     WebElement elem1 = driver.findElement(By.xpath("//*[@id=\"header-store-info-widget\"]/div[1]/div/span[1]"));
         Actions act = new Actions(driver);
